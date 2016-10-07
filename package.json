@@ -1,0 +1,30 @@
+{
+  "name": "itinerary",
+  "version": "0.0.1",
+  "description": "Run a command on a schedule, just like a real cron!",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lord2800/itinerary.git"
+  },
+  "keywords": [
+    "cron"
+  ],
+  "author": "Jeff Hubbard <lord2800@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lord2800/itinerary/issues"
+  },
+  "homepage": "https://github.com/lord2800/itinerary#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "node-cron": "^1.1.2"
+  },
+  "devDependencies": {
+    "eslint": "^3.7.1"
+  }
+}
